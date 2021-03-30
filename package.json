@@ -1,0 +1,36 @@
+{
+  "name": "interview-task",
+  "version": "0.0.0",
+  "description": "description",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsc-watch -p tsconfig.json --onSuccess \"node dist/http.js\"",
+    "start:prod": "node dist/src/http.js",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "7.0.9",
+    "@nestjs/core": "7.0.9",
+    "@nestjs/mongoose": "6.4.0",
+    "@nestjs/platform-fastify": "7.0.9",
+    "@nestjs/swagger": "3.1.0",
+    "@types/node": "13.13.4",
+    "bcryptjs": "2.4.3",
+    "fastify-swagger": "2.5.1",
+    "jsonwebtoken": "8.5.1",
+    "mongodb": "3.5.7",
+    "mongoose": "5.9.11",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "6.5.5",
+    "ts-loader": "7.0.2",
+    "ts-node": "8.10.1",
+    "tsc-watch": "4.2.3",
+    "tsconfig-paths": "3.9.0",
+    "tslint": "6.1.2",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-sonarts": "1.9.0",
+    "typescript": "3.8.3"
+  }
+}
