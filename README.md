@@ -1,14 +1,14 @@
 # A simple template with auth on NestJs&MongoDB
 You have configured application with empty controller and service.
-##Development
+## Development
 
-###Install Dependencies
+### Install Dependencies
 `npm i`
 
-###Lint
+### Lint
 `npm run lint`
 
-###Run
+### Run
 `npm run start`
 
 Docs: https://docs.nestjs.com/techniques/mongodb.
